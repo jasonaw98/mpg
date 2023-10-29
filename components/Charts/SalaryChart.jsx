@@ -42,7 +42,7 @@ const SalaryChart = () => {
     }, []);
 
     return (
-        <div className='w-full max-h-[42vh] drop-shadow-xl shadow-xl border-purple-800 border-2 rounded-2xl p-8'>
+        <div className='w-full h-full drop-shadow-xl shadow-xl border-purple-800 border-2 rounded-2xl p-8'>
              <p className='text-xl text-center font-semibold'>Years of Experience</p>
             <canvas ref={canvasRef} />
         </div>
