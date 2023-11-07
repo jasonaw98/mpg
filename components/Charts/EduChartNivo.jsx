@@ -69,7 +69,7 @@ const data = [
     },
 ]
 
-const EduChart = () => {
+const EduChartNivo = () => {
     return (
         <div className='w-full h-full drop-shadow-xl shadow-xl border-purple-800 border-2 rounded-2xl p-8'>
             <p className='text-xl text-center font-semibold'>Gross Salary per Education Level</p>
@@ -78,7 +78,7 @@ const EduChart = () => {
                 data={data}
                 keys={['salary']}
                 indexBy="education"
-                margin={{ top: 10, right: 0, bottom: 55, left: 160 }}
+                margin={{ top: 10, right: 0, bottom: 55, left: 200 }}
                 padding={0.2}
                 valueScale={{ type: 'linear' }}
                 indexScale={{ type: 'band', round: true }}
@@ -99,10 +99,10 @@ const EduChart = () => {
                 axisLeft={{
                     tickSize: 5,
                     tickPadding: 5,
-                    tickRotation: -40,
+                    tickRotation: 0,
                     legend: '',
                 }}
-                valueFormat=" <-$"
+                // valueFormat=" <-$"
                 enableGridX={true}
                 enableGridY={true}
                 enableLabel={true}
@@ -117,4 +117,4 @@ const EduChart = () => {
     )
 }
 
-export default EduChart
+export default EduChartNivo

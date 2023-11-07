@@ -3,7 +3,7 @@ import Link from "next/link"
 
 const Footer = () => {
   return (
-    <footer className="p-4 bg-[#7d86ff] sm:p-6 text-white">
+    <footer className="p-4 bg-[#7d86ff] sm:p-6 text-white mt-10">
     <div className="mx-auto max-w-screen-xl">
         <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
@@ -14,15 +14,21 @@ const Footer = () => {
             </div>
             <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                 <div>
-                    <h2 className="mb-6 text-sm font-semibold uppercase">Resources</h2>
+                    <h2 className="mb-4 text-base font-semibold uppercase">Resources</h2>
                     <ul className="">
                         <li className="mb-4">
                             <Link href="https://linktr.ee/malaysianpaygap" target="_blank" className="hover:underline hover:text-gray-700">LinkTree</Link>
                         </li>
+                        <li className="mb-4">
+                            <Link href="https://docs.google.com/forms/d/e/1FAIpQLScdcVFgnc8oiwFIT7-54C62Oc2eremwWzK13msSn8c8ifxZOA/viewform" target="_blank" className="hover:underline hover:text-gray-700">Wage Form</Link>
+                        </li>
+                        <li className="mb-4">
+                            <Link href="https://docs.google.com/forms/d/e/1FAIpQLSfK0vzaharcCip9lFgzBb2fDt48uFPZZwiplOZZA531P27D9A/viewform" target="_blank" className="hover:underline hover:text-gray-700">Company Perks</Link>
+                        </li>
                     </ul>
                 </div>
                 <div>
-                    <h2 className="mb-6 text-sm font-semibold uppercase">Follow us</h2>
+                    <h2 className="mb-4 text-base font-semibold uppercase">Follow us</h2>
                     <ul className="">
                         <li className="mb-4">
                             <Link href="https://www.instagram.com/malaysianpaygap/" target="_blank" className="hover:underline hover:text-gray-700">Instagram</Link>
@@ -36,7 +42,7 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div>
-                    <h2 className="mb-6 text-sm font-semibold uppercase">Legal</h2>
+                    <h2 className="mb-4 text-base font-semibold uppercase">Legal</h2>
                     <ul className="">
                         <li className="mb-4">
                             <Link href="#" className="hover:underline hover:text-gray-700">Privacy Policy</Link>

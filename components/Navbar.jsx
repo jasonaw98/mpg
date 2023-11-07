@@ -8,7 +8,7 @@ const Navbar = () => {
 
     return (
 
-        <nav className="bg-[#7d86ff] top-0 left-0 right-0 z-50 fixed shadow-2xl drop-shadow-xl">
+        <nav className="bg-[#7d86ff] top-0 left-0 right-0 z-50 sticky shadow-2xl drop-shadow-xl">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 text-white">
                 <Link href="/" className="flex items-center">
                     <Image src="/mpg.jpg" width={70} height={70} className="h-8 mr-3 object-cover" alt="MPG Logo" />
@@ -27,6 +27,9 @@ const Navbar = () => {
                         </li>
                         <li>
                             <Link href="#" className="block py-2 pl-3 pr-4 rounded hover:text-blue-700 md:p-0 hover:bg-gray-100 md:hover:bg-transparent">Job Satisfaction</Link>
+                        </li>
+                        <li>
+                            <Link href="#" className="block py-2 pl-3 pr-4 rounded hover:text-blue-700 md:p-0 hover:bg-gray-100 md:hover:bg-transparent">Submission Demographics</Link>
                         </li>
                     </ul>
                 </div>
