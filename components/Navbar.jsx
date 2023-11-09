@@ -23,13 +23,13 @@ const Navbar = () => {
                 <div className={`${dropDown ? "block" : "hidden"} w-full md:block md:w-auto`} id="navbar-default">
                     <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
                         <li>
-                            <Link href="#" className="block py-2 pl-3 pr-4 rounded hover:text-blue-700 md:p-0 hover:bg-gray-100 md:hover:bg-transparent">Overview</Link>
+                            <Link href="/" className="block py-2 pl-3 pr-4 rounded hover:font-bold hover:text-md md:p-0 hover:bg-gray-100 md:hover:bg-transparent">Overview</Link>
                         </li>
                         <li>
-                            <Link href="#" className="block py-2 pl-3 pr-4 rounded hover:text-blue-700 md:p-0 hover:bg-gray-100 md:hover:bg-transparent">Job Satisfaction</Link>
+                            <Link href="/satisfaction" className="block py-2 pl-3 pr-4 rounded hover:font-bold hover:text-md md:p-0 hover:bg-gray-100 md:hover:bg-transparent">Job Satisfaction</Link>
                         </li>
                         <li>
-                            <Link href="#" className="block py-2 pl-3 pr-4 rounded hover:text-blue-700 md:p-0 hover:bg-gray-100 md:hover:bg-transparent">Submission Demographics</Link>
+                            <Link href="/submission" className="block py-2 pl-3 pr-4 rounded hover:font-bold hover:text-md md:p-0 hover:bg-gray-100 md:hover:bg-transparent">Submission Demographics</Link>
                         </li>
                     </ul>
                 </div>
