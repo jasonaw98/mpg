@@ -10,19 +10,37 @@ const SalaryChart = () => {
             const ctx = canvasRef.current.getContext('2d');
 
             const data = [
-                { year: 2010, count: 10 },
-                { year: 2011, count: 20 },
-                { year: 2012, count: 15 },
-                { year: 2013, count: 25 },
-                { year: 2014, count: 22 },
-                { year: 2015, count: 30 },
-                { year: 2016, count: 28 },
-            ];
+                { pay: "1K", count: 41 },
+                { pay: "2K", count: 198 },
+                { pay: "3K", count: 726 },
+                { pay: "4K", count: 1222 },
+                { pay: "5K", count: 885 },
+                { pay: "6K", count: 618 },
+                { pay: "7K", count: 425 },
+                { pay: "8K", count: 324 },
+                { pay: "9K", count: 229 },
+                { pay: "10K", count: 150 },
+                { pay: "11K", count: 144 },
+                { pay: "12K", count: 91 },
+                { pay: "13K", count: 89 },
+                { pay: "14K", count: 63 },
+                { pay: "15K", count: 40 },
+                { pay: "16K", count: 54 },
+                { pay: "17K", count: 31 },
+                { pay: "18K", count: 28 },
+                { pay: "19K", count: 47 },
+                { pay: "20K", count: 20 },
+                { pay: "21K", count: 28 },
+                { pay: "22K", count: 12 },
+                { pay: "23K", count: 13 },
+                { pay: "24K", count: 2 },
+                { pay: "25K", count: 16 },
+            ]
             
             const myChart = new Chart(ctx, {
                 type: 'bar',
                 data: {
-                    labels: data.map(row => row.year),
+                    labels: data.map(row => row.pay),
                     datasets: [
                         {
                             label: 'Acquisitions by year',
@@ -43,7 +61,7 @@ const SalaryChart = () => {
 
     return (
         <div className='w-full h-full drop-shadow-xl shadow-xl border-purple-800 border-2 rounded-2xl p-8'>
-             <p className='text-xl text-center font-semibold'>Years of Experience</p>
+             <p className='text-xl text-center font-semibold -mt-3'>Submission Salary</p>
             <canvas ref={canvasRef} />
         </div>
     )

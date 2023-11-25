@@ -38,8 +38,8 @@ const MapChart = () => {
             unknownColor="#666666"
             label="properties.state"
             valueFormat=".1s"
-            projectionScale={3700}
-            projectionTranslation={[0.44, 1.07]}
+            projectionScale={3300}
+            projectionTranslation={[0.43, 1.01]}
             projectionRotation={[-110, 0, 0]}
             borderWidth={0.8}
             borderColor="#13293d"

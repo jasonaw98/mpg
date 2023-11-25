@@ -14,10 +14,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+      <link rel="icon" href="favicon-32x32.png"/>
+      </head>
       <body className={`${inter.className} bg-slate-100`}>
         <Navbar />
         <SearchBar />
-        <main className='px-9 -z-50 sticky'>
+        <main className='px-9'>
         {children}
         </main>
         <Footer/>

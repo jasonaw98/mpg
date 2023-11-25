@@ -134,7 +134,7 @@ const RaceChart = () => {
   }, []);
 
   return (
-    <div className='w-full h-full drop-shadow-xl shadow-xl border-purple-800 border-2 rounded-2xl p-8'>
+    <div className='w-full h-full drop-shadow-xl shadow-xl border-purple-800 border-2 rounded-2xl p-7'>
       <p className='text-xl text-center font-semibold'>Ethnicity</p>
       <canvas ref={canvasRef} />
     </div>

@@ -134,7 +134,7 @@ const GenderChart = () => {
 
   return (
     <div className='w-full h-full drop-shadow-xl shadow-xl border-purple-800 border-2 rounded-2xl p-8'>
-      <p className='text-xl text-center font-semibold'>Gender Pay Gap</p>
+      <p className='text-xl text-center font-semibold -mt-2'>Gender Pay Gap</p>
       <canvas ref={canvasRef} />
     </div>
   )

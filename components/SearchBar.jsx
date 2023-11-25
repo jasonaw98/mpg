@@ -111,7 +111,7 @@ const SearchBar = () => {
   }, []);
 
   return (
-    <section className="flex flex-col items-center pt-10 px-8 pb-10">
+    <section className="flex flex-col items-center pt-10 px-8 pb-10 z-20 sticky">
       <div className="flex flex-col items-center w-[-webkit-fill-available] justify-center bg-[#7d86ff] rounded-xl mx-28 drop-shadow-xl shadow-xl">
         <Image src="/goodbyewage.jpeg" width={600} height={500} />
       </div>

@@ -16,9 +16,6 @@ export default function Home() {
 
         <div className='flex w-2/3 justify-center rounded-[20px] bg-[white]/30 z-10 relative h-[5rem] backdrop-blur shadow-lg mb-10 drop-shadow-2xl -mt-[2.5rem] items-center'>Search Bar</div> */}
       <div className='flex w-full justify-center gap-8 flex-wrap'>
-        <div className='w-[70%] h-[520px]'>
-          <MapChart/>
-        </div>
         <div className='w-[30%] min-w-[420px] max-h-[42vh]'>
           <ExperienceChart />
         </div>
@@ -27,6 +24,9 @@ export default function Home() {
         </div>
         <div className='w-[30%] min-w-[420px] max-h-[42vh]'>
           <GenderChart />
+        </div>
+        <div className='w-[70%] h-[520px]'>
+          <MapChart/>
         </div>
         <div className='w-[30%] min-w-[420px] max-h-[42vh]'>
           <RaceChart/>
