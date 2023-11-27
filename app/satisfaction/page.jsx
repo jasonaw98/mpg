@@ -1,6 +1,7 @@
 import JobCard from "@/components/JobCard"
 import { satisfaction } from "@/public/data"
 import HappyChart from "@/components/Charts/HappyChart"
+import RaceChart from "@/components/Charts/RaceChart"
 
 const Satisfaction = () => {
 
@@ -9,8 +10,11 @@ const Satisfaction = () => {
       <div className="flex justify-center w-full">
 
         <div className="flex flex-col mr-12">
-          <div className='w-[30%] min-w-[440px] max-h-[51vh]'>
+          <div className='w-[30%] min-w-[440px] max-h-[51vh] mb-6'>
             <HappyChart />
+          </div>
+          <div className='w-[30%] min-w-[440px] max-h-[51vh]'>
+            <RaceChart />
           </div>
         </div>
 

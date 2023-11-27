@@ -28,12 +28,12 @@ export default function Home() {
         <div className='w-[70%] h-[520px]'>
           <MapChart/>
         </div>
-        <div className='w-[30%] min-w-[420px] max-h-[42vh]'>
+        {/* <div className='w-[30%] min-w-[420px] max-h-[42vh]'>
           <RaceChart/>
         </div>
         <div className='w-[30%] min-w-[420px] max-h-[42vh]'>
           <Ethnic/>
-        </div>
+        </div> */}
         <div className='w-[80%] max-h-[630px]'>
           <EduChartNivo/>
         </div>
